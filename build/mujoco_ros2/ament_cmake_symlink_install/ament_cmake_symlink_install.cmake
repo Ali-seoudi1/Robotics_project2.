@@ -357,3 +357,6 @@ ament_cmake_symlink_install_files("/home/ali/Desktop/Ali engineering/GUC/Semeste
 
 # install(FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/package.xml" "DESTINATION" "share/mujoco_ros2")
 ament_cmake_symlink_install_files("/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2" FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/package.xml" "DESTINATION" "share/mujoco_ros2")
+
+# install(PROGRAMS "scripts/ik_controller.py" "DESTINATION" "lib/mujoco_ros2")
+ament_cmake_symlink_install_programs("/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2" PROGRAMS "scripts/ik_controller.py" "DESTINATION" "lib/mujoco_ros2")

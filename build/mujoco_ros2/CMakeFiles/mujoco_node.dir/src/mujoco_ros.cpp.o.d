@@ -150,7 +150,7 @@ CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ali/mujoco-3.2.0/include/mujoco/mujoco.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mujoco.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/math.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -175,21 +175,21 @@ CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/ali/mujoco-3.2.0/include/mujoco/mjdata.h \
- /home/ali/mujoco-3.2.0/include/mujoco/mjtnum.h \
- /home/ali/mujoco-3.2.0/include/mujoco/mjmodel.h \
- /home/ali/mujoco-3.2.0/include/mujoco/mjthread.h \
- /home/ali/mujoco-3.2.0/include/mujoco/mjexport.h \
- /home/ali/mujoco-3.2.0/include/mujoco/mjmacro.h \
- /home/ali/mujoco-3.2.0/include/mujoco/mjplugin.h \
- /home/ali/mujoco-3.2.0/include/mujoco/mjvisualize.h \
- /home/ali/mujoco-3.2.0/include/mujoco/mjrender.h \
- /home/ali/mujoco-3.2.0/include/mujoco/mjspec.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjdata.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjtnum.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjmodel.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjthread.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjexport.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjmacro.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjplugin.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjvisualize.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjrender.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjspec.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/ali/mujoco-3.2.0/include/mujoco/mjui.h \
+ /usr/local/mujoco-3.2.0/include/mujoco/mjui.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \

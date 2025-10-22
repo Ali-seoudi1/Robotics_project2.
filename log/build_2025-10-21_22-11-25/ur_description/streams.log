@@ -1,0 +1,236 @@
+[0.052s] Invoking command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/ur_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description
+[0.172s] -- The C compiler identification is GNU 11.4.0
+[0.266s] -- The CXX compiler identification is GNU 11.4.0
+[0.283s] -- Detecting C compiler ABI info
+[0.468s] -- Detecting C compiler ABI info - done
+[0.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.493s] -- Detecting C compile features
+[0.495s] -- Detecting C compile features - done
+[0.504s] -- Detecting CXX compiler ABI info
+[0.829s] -- Detecting CXX compiler ABI info - done
+[0.850s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.851s] -- Detecting CXX compile features
+[0.852s] -- Detecting CXX compile features - done
+[0.861s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.471s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.702s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.740s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.677s] -- Configuring done
+[2.680s] -- Generating done
+[2.681s] -- Build files have been written to: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description
+[2.686s] Invoked command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/ur_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description
+[2.688s] Invoking command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description -- -j12 -l12
+[2.761s] Invoked command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description -- -j12 -l12
+[2.776s] Invoking command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description
+[2.785s] -- Install configuration: ""
+[2.786s] -- Execute custom install script
+[2.787s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.799s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.809s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.833s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.845s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.857s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.869s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.882s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.896s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.910s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml
+[2.938s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml
+[2.958s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml
+[2.972s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml
+[2.985s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur15/default_kinematics.yaml
+[2.996s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur15/joint_limits.yaml
+[3.009s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur15/physical_parameters.yaml
+[3.034s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur15/visual_parameters.yaml
+[3.050s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[3.068s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[3.081s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[3.095s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[3.114s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[3.140s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[3.158s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[3.175s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[3.189s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[3.203s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[3.221s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[3.247s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[3.265s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[3.283s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[3.294s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[3.306s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[3.322s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[3.339s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[3.352s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[3.363s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[3.374s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[3.388s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[3.400s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[3.411s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[3.436s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[3.449s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[3.461s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[3.473s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[3.485s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml
+[3.497s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml
+[3.509s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml
+[3.529s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml
+[3.545s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur8long/default_kinematics.yaml
+[3.556s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur8long/joint_limits.yaml
+[3.567s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur8long/physical_parameters.yaml
+[3.579s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/config/ur8long/visual_parameters.yaml
+[3.591s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[3.606s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[3.624s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[3.642s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[3.655s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[3.667s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[3.679s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[3.692s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[3.705s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[3.719s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[3.740s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[3.753s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[3.766s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[3.778s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[3.789s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[3.802s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[3.814s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[3.840s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[3.853s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[3.866s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[3.878s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[3.893s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[3.906s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[3.926s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[3.944s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[3.957s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[3.969s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[3.981s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[3.993s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[4.006s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/LICENSE.txt
+[4.019s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/collision/base.stl
+[4.043s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/collision/forearm.stl
+[4.056s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/collision/shoulder.stl
+[4.068s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/collision/upperarm.stl
+[4.080s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/collision/wrist1.stl
+[4.093s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/collision/wrist2.stl
+[4.106s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/collision/wrist3.stl
+[4.123s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg
+[4.143s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/visual/base.dae
+[4.156s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/visual/forearm.dae
+[4.168s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/visual/shoulder.dae
+[4.181s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/visual/upperarm.dae
+[4.193s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/visual/wrist1.dae
+[4.205s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/visual/wrist2.dae
+[4.219s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur15/visual/wrist3.dae
+[4.241s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[4.252s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[4.263s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[4.276s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[4.288s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[4.300s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[4.312s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[4.335s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[4.349s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[4.362s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[4.374s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[4.386s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[4.398s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[4.411s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[4.435s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[4.451s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[4.464s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[4.477s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[4.489s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[4.502s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[4.514s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[4.538s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[4.552s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[4.564s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[4.577s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[4.589s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[4.602s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[4.615s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[4.638s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[4.652s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[4.664s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[4.674s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[4.686s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[4.698s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[4.709s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[4.724s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[4.746s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[4.759s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[4.771s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[4.782s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[4.795s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[4.810s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[4.829s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[4.847s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[4.861s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[4.873s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[4.885s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[4.899s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[4.912s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[4.938s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[4.952s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[4.965s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[4.977s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[4.989s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[5.001s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[5.013s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[5.035s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[5.051s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[5.063s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[5.075s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[5.086s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[5.098s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[5.110s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[5.130s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[5.146s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[5.159s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[5.171s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[5.183s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[5.196s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[5.208s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[5.225s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[5.245s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[5.258s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[5.270s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[5.283s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[5.296s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[5.309s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[5.327s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[5.346s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[5.359s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[5.372s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[5.384s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[5.397s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur8long/LICENSE.txt
+[5.409s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur8long/collision/forearm.stl
+[5.431s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur8long/collision/upperarm.stl
+[5.451s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur8long/visual/UR8Long_DIFF_8bit_2K.jpg
+[5.464s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur8long/visual/forearm.dae
+[5.476s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/meshes/ur8long/visual/upperarm.dae
+[5.488s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[5.500s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[5.513s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[5.532s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[5.549s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[5.562s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[5.575s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[5.587s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[5.600s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[5.613s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[5.633s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[5.651s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[5.663s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/environment/path.sh
+[5.677s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/environment/path.dsv
+[5.690s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/local_setup.bash
+[5.702s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/local_setup.sh
+[5.714s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/local_setup.zsh
+[5.737s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/local_setup.dsv
+[5.751s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/package.dsv
+[5.762s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[5.774s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[5.786s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[5.798s] -- Symlinking: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/ur_description/share/ur_description/package.xml
+[5.814s] Invoked command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description

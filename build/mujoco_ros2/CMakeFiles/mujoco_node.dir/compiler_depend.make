@@ -186,7 +186,7 @@ CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o: /home/ali/Desktop/Ali\ engineer
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /home/ali/mujoco-3.2.0/include/mujoco/mujoco.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mujoco.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/math.h \
   /usr/include/c++/11/cmath \
@@ -214,22 +214,22 @@ CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o: /home/ali/Desktop/Ali\ engineer
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjdata.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjtnum.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjmodel.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjthread.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjexport.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjmacro.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjplugin.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjvisualize.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjrender.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjspec.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjdata.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjtnum.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjmodel.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjthread.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjexport.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjmacro.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjplugin.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjvisualize.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjrender.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjspec.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjui.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjui.h \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -906,7 +906,7 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /home/ali/mujoco-3.2.0/include/mujoco/mujoco.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mujoco.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/math.h \
   /usr/include/c++/11/cmath \
@@ -934,22 +934,22 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjdata.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjtnum.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjmodel.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjthread.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjexport.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjmacro.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjplugin.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjvisualize.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjrender.h \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjspec.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjdata.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjtnum.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjmodel.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjthread.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjexport.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjmacro.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjplugin.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjvisualize.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjrender.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjspec.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/ali/mujoco-3.2.0/include/mujoco/mjui.h \
+  /usr/local/mujoco-3.2.0/include/mujoco/mjui.h \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -1496,6 +1496,8 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
@@ -1674,10 +1676,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
@@ -1704,6 +1702,12 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/c++/11/bits/vector.tcc:
 
+/usr/local/mujoco-3.2.0/include/mujoco/mjui.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
+
 /usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
@@ -1714,9 +1718,21 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/c++/11/vector:
 
-/home/ali/mujoco-3.2.0/include/mujoco/mjmacro.h:
+/usr/local/mujoco-3.2.0/include/mujoco/mjexport.h:
 
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+/opt/ros/humble/include/rcutils/rcutils/qsort.h:
+
+/usr/local/mujoco-3.2.0/include/mujoco/mjthread.h:
+
+/usr/local/mujoco-3.2.0/include/mujoco/mjtnum.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/local/mujoco-3.2.0/include/mujoco/mjdata.h:
+
+/usr/include/c++/11/cwchar:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
@@ -1733,8 +1749,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
 
 /usr/include/c++/11/bits/specfun.h:
-
-/home/ali/mujoco-3.2.0/include/mujoco/mjplugin.h:
 
 /usr/include/c++/11/bits/stl_list.h:
 
@@ -1764,7 +1778,7 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/c++/11/bits/istream.tcc:
 
-/usr/include/c++/11/csignal:
+/usr/local/mujoco-3.2.0/include/mujoco/mjvisualize.h:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
@@ -1888,8 +1902,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/home/ali/mujoco-3.2.0/include/mujoco/mjvisualize.h:
-
 /usr/include/stdint.h:
 
 /usr/include/c++/11/bits/ptr_traits.h:
@@ -1926,8 +1938,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/c++/11/bits/shared_ptr.h:
 
-/home/ali/mujoco-3.2.0/include/mujoco/mjmodel.h:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/11/bits/string_view.tcc:
@@ -1937,6 +1947,12 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /usr/include/c++/11/bits/move.h:
 
 /usr/include/c++/11/typeinfo:
+
+/usr/local/mujoco-3.2.0/include/mujoco/mjspec.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/macros.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -1975,6 +1991,8 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /usr/include/c++/11/iosfwd:
 
 /usr/include/c++/11/initializer_list:
+
+/usr/local/mujoco-3.2.0/include/mujoco/mjmacro.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -2036,6 +2054,16 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/c++/11/streambuf:
 
+/usr/local/mujoco-3.2.0/include/mujoco/mjrender.h:
+
+/opt/ros/humble/include/rmw/rmw/macros.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
+
+/opt/ros/humble/include/rmw/rmw/ret_types.h:
+
+/usr/include/c++/11/bits/stream_iterator.h:
+
 /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h:
 
 /usr/include/c++/11/system_error:
@@ -2047,8 +2075,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/home/ali/mujoco-3.2.0/include/mujoco/mjexport.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -2079,6 +2105,12 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/c++/11/csignal:
+
+/usr/local/mujoco-3.2.0/include/mujoco/mjplugin.h:
+
+/usr/include/c++/11/sstream:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -2186,8 +2218,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
 
-/usr/include/c++/11/cwchar:
-
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
@@ -2195,8 +2225,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/home/ali/mujoco-3.2.0/include/mujoco/mjthread.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
@@ -2221,6 +2249,8 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /opt/ros/humble/include/rcutils/rcutils/types/char_array.h:
 
 /usr/include/c++/11/variant:
+
+/usr/local/mujoco-3.2.0/include/mujoco/mujoco.h:
 
 /usr/include/c++/11/bits/streambuf.tcc:
 
@@ -2264,6 +2294,10 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/ext/alloc_traits.h:
@@ -2277,10 +2311,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
 
 /usr/include/c++/11/bits/localefwd.h:
-
-/home/ali/mujoco-3.2.0/include/mujoco/mujoco.h:
-
-/opt/ros/humble/include/rcl/rcl/domain_id.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
@@ -2318,10 +2348,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
-
-/home/ali/mujoco-3.2.0/include/mujoco/mjdata.h:
-
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
@@ -2351,6 +2377,10 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /usr/include/c++/11/bits/exception_ptr.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/local/mujoco-3.2.0/include/mujoco/mjmodel.h:
+
+/opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
 /usr/include/c++/11/backward/binders.h:
 
@@ -2448,8 +2478,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/c++/11/bits/stl_tree.h:
 
-/home/ali/mujoco-3.2.0/include/mujoco/mjui.h:
-
 /opt/ros/humble/include/rcutils/rcutils/visibility_control.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
@@ -2504,6 +2532,12 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
 
+/opt/ros/humble/include/rmw/rmw/rmw.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
@@ -2526,14 +2560,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /opt/ros/humble/include/rmw/rmw/visibility_control.h:
 
-/opt/ros/humble/include/rmw/rmw/macros.h:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
-
-/opt/ros/humble/include/rmw/rmw/ret_types.h:
-
-/usr/include/c++/11/bits/stream_iterator.h:
-
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
@@ -2555,20 +2581,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /opt/ros/humble/include/rcl/rcl/error_handling.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
-
-/home/ali/mujoco-3.2.0/include/mujoco/mjspec.h:
-
-/opt/ros/humble/include/rcutils/rcutils/qsort.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
-
-/opt/ros/humble/include/rmw/rmw/rmw.h:
-
-/usr/include/c++/11/bits/ostream.tcc:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
 /usr/include/c++/11/bits/list.tcc:
 
@@ -2628,9 +2640,9 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /opt/ros/humble/include/rcl/rcl/node_options.h:
 
-/home/ali/mujoco-3.2.0/include/mujoco/mjrender.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
+
+/opt/ros/humble/include/rcl/rcl/domain_id.h:
 
 /opt/ros/humble/include/rcl/rcl/service.h:
 
@@ -2643,8 +2655,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /opt/ros/humble/include/rcl/rcl/time.h:
-
-/home/ali/mujoco-3.2.0/include/mujoco/mjtnum.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
@@ -2684,10 +2694,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /opt/ros/humble/include/tracetools/tracetools/tracetools.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/macros.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
@@ -2714,8 +2720,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 
 /usr/include/c++/11/optional:
 
-/usr/include/c++/11/sstream:
-
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
@@ -2739,8 +2743,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
-
-/opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
 /usr/include/wctype.h:
 
@@ -2781,6 +2783,8 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/libintl.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
 /usr/include/c++/11/bits/locale_conv.h:
 
@@ -2827,10 +2831,6 @@ CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o: /home/ali/Desktop/Ali\ e
 /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
 

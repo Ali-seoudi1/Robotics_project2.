@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:26 (message):
+  Environment variable MUJOCO_DIR not set! Please export MUJOCO_DIR before
+  building.
+
+[0m
+gmake: *** [Makefile:294: cmake_check_build_system] Error 1
