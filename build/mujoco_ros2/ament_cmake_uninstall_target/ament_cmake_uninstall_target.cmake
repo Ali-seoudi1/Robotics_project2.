@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

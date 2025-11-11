@@ -1,1 +1,0 @@
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/scripts/ik_controller.py

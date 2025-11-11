@@ -1,1 +1,6 @@
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/model/CHANGELOG.md
+# Changelog – Universal Robots UR5e Description
+
+All notable changes to this model will be documented in this file.
+
+## [2022-09-07]
+- Initial release.

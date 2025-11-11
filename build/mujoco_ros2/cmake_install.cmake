@@ -43,7 +43,113 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mujoco_ros2/mujoco_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mujoco_ros2/mujoco_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mujoco_ros2/mujoco_node"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mujoco_ros2" TYPE EXECUTABLE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/mujoco_node")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mujoco_ros2/mujoco_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mujoco_ros2/mujoco_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mujoco_ros2/mujoco_node"
+         OLD_RPATH "/usr/local/mujoco-3.2.0/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mujoco_ros2/mujoco_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2" TYPE DIRECTORY FILES
+    "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/launch"
+    "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/model"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2/environment" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/pythonpath.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2/environment" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/pythonpath.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_python/mujoco_ros2/mujoco_ros2.egg-info/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/mujoco_ros2" TYPE DIRECTORY FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/mujoco_ros2/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(
+        COMMAND
+        "/usr/bin/python3" "-m" "compileall"
+        "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2"
+      )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2/environment" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2/environment" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_index/share/ament_index/resource_index/packages/mujoco_ros2")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2/cmake" TYPE FILE FILES
+    "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_core/mujoco_ros2Config.cmake"
+    "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_core/mujoco_ros2Config-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros2" TYPE FILE FILES "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

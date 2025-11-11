@@ -1,0 +1,123 @@
+[0.009s] Invoking command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2 -DCMAKE_INSTALL_PREFIX=/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2
+[0.179s] -- The C compiler identification is GNU 11.4.0
+[0.337s] -- The CXX compiler identification is GNU 11.4.0
+[0.350s] -- Detecting C compiler ABI info
+[0.420s] -- Detecting C compiler ABI info - done
+[0.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.428s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.436s] -- Detecting CXX compiler ABI info
+[0.580s] -- Detecting CXX compiler ABI info - done
+[0.595s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.595s] -- Detecting CXX compile features
+[0.596s] -- Detecting CXX compile features - done
+[0.608s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.077s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.426s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.523s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.533s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.555s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.738s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.746s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.036s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.099s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.182s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.237s] -- Looking for pthread.h
+[2.404s] -- Looking for pthread.h - found
+[2.404s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.488s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.489s] -- Found Threads: TRUE  
+[2.563s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.588s] -- Using MuJoCo from: /usr/local/mujoco-3.2.0
+[2.725s] -- Configuring done
+[2.742s] -- Generating done
+[2.745s] -- Build files have been written to: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2
+[2.753s] Invoked command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2 -DCMAKE_INSTALL_PREFIX=/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2
+[2.756s] Invoking command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2 -- -j12 -l12
+[2.801s] [ 33%] [32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o[0m
+[2.803s] [ 66%] [32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o[0m
+[2.811s] [ 66%] Built target ament_cmake_python_copy_mujoco_ros2
+[3.007s] running egg_info
+[3.008s] creating mujoco_ros2.egg-info
+[3.008s] writing mujoco_ros2.egg-info/PKG-INFO
+[3.008s] writing dependency_links to mujoco_ros2.egg-info/dependency_links.txt
+[3.008s] writing top-level names to mujoco_ros2.egg-info/top_level.txt
+[3.009s] writing manifest file 'mujoco_ros2.egg-info/SOURCES.txt'
+[3.011s] reading manifest file 'mujoco_ros2.egg-info/SOURCES.txt'
+[3.011s] writing manifest file 'mujoco_ros2.egg-info/SOURCES.txt'
+[3.043s] [ 66%] Built target ament_cmake_python_build_mujoco_ros2_egg
+[9.572s] [100%] [32m[1mLinking CXX executable mujoco_node[0m
+[10.017s] [100%] Built target mujoco_node
+[10.026s] Invoked command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2 -- -j12 -l12
+[10.035s] Invoking command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2
+[10.041s] -- Install configuration: ""
+[10.041s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node
+[10.043s] -- Set runtime path of "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node" to ""
+[10.043s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/launch
+[10.055s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/launch/example.py
+[10.055s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model
+[10.055s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/CHANGELOG.md
+[10.055s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/two_link_planar.xml
+[10.060s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/ur5e.xml
+[10.061s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/LICENSE
+[10.061s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/scene.xml
+[10.061s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets
+[10.061s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_0.obj
+[10.065s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist3.obj
+[10.066s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_0.obj
+[10.068s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_1.obj
+[10.070s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_2.obj
+[10.078s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_1.obj
+[10.088s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_0.obj
+[10.090s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_2.obj
+[10.098s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_2.obj
+[10.104s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_0.obj
+[10.113s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_1.obj
+[10.114s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_2.obj
+[10.118s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_3.obj
+[10.122s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_0.obj
+[10.128s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_1.obj
+[10.136s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_1.obj
+[10.139s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_3.obj
+[10.159s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_1.obj
+[10.163s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_0.obj
+[10.167s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_2.obj
+[10.179s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/ur5e.png
+[10.186s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/README.md
+[10.186s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/pythonpath.sh
+[10.186s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/pythonpath.dsv
+[10.186s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info
+[10.186s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.186s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/top_level.txt
+[10.186s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.187s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/PKG-INFO
+[10.187s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2
+[10.187s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/__init__.py
+[10.187s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/fk_ur5e.py
+[10.187s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_controller.py
+[10.187s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/kinematics_derivations.py
+[10.187s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_ur5e.py
+[10.218s] Listing '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2'...
+[10.218s] Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/__init__.py'...
+[10.218s] Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/fk_ur5e.py'...
+[10.218s] Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_controller.py'...
+[10.218s] Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_ur5e.py'...
+[10.219s] Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/kinematics_derivations.py'...
+[10.222s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2
+[10.222s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2
+[10.222s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.sh
+[10.222s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.dsv
+[10.222s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/path.sh
+[10.222s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/path.dsv
+[10.222s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.bash
+[10.223s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.sh
+[10.223s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.zsh
+[10.223s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.dsv
+[10.223s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/package.dsv
+[10.223s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/ament_index/resource_index/packages/mujoco_ros2
+[10.223s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config.cmake
+[10.224s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config-version.cmake
+[10.224s] -- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/package.xml
+[10.227s] Invoked command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2

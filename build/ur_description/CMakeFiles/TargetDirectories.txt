@@ -1,9 +1,0 @@
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/CMakeFiles/uninstall.dir
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/CMakeFiles/ur_description_uninstall.dir
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/CMakeFiles/test.dir
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/CMakeFiles/edit_cache.dir
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/CMakeFiles/rebuild_cache.dir
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/CMakeFiles/list_install_components.dir
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/CMakeFiles/install.dir
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/CMakeFiles/install/local.dir
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/CMakeFiles/install/strip.dir

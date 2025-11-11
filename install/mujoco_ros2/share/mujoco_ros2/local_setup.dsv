@@ -1,1 +1,3 @@
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_environment_hooks/local_setup.dsv
+source;share/mujoco_ros2/environment/ament_prefix_path.sh
+source;share/mujoco_ros2/environment/path.sh
+source;share/mujoco_ros2/environment/pythonpath.sh

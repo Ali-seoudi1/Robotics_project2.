@@ -210,6 +210,32 @@ mujoco_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mujoco_node.dir/build.make CMakeFiles/mujoco_node.dir/build
 .PHONY : mujoco_node/fast
 
+#=============================================================================
+# Target rules for targets named ament_cmake_python_copy_mujoco_ros2
+
+# Build rule for target.
+ament_cmake_python_copy_mujoco_ros2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_mujoco_ros2
+.PHONY : ament_cmake_python_copy_mujoco_ros2
+
+# fast build rule for target.
+ament_cmake_python_copy_mujoco_ros2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_mujoco_ros2.dir/build.make CMakeFiles/ament_cmake_python_copy_mujoco_ros2.dir/build
+.PHONY : ament_cmake_python_copy_mujoco_ros2/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_mujoco_ros2_egg
+
+# Build rule for target.
+ament_cmake_python_build_mujoco_ros2_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_mujoco_ros2_egg
+.PHONY : ament_cmake_python_build_mujoco_ros2_egg
+
+# fast build rule for target.
+ament_cmake_python_build_mujoco_ros2_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_mujoco_ros2_egg.dir/build.make CMakeFiles/ament_cmake_python_build_mujoco_ros2_egg.dir/build
+.PHONY : ament_cmake_python_build_mujoco_ros2_egg/fast
+
 src/mujoco_ros.o: src/mujoco_ros.cpp.o
 .PHONY : src/mujoco_ros.o
 
@@ -271,6 +297,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_mujoco_ros2_egg"
+	@echo "... ament_cmake_python_copy_mujoco_ros2"
 	@echo "... mujoco_ros2_uninstall"
 	@echo "... uninstall"
 	@echo "... mujoco_node"

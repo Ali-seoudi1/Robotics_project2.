@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-97c5abcc6fc7856f3e5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mujoco_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mujoco_ros2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mujoco_ros2_egg-e3b18abf309a30cbcf4f.json",
+					"name" : "ament_cmake_python_build_mujoco_ros2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mujoco_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mujoco_ros2-109abbc643737334978a.json",
+					"name" : "ament_cmake_python_copy_mujoco_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_node-9b13329593206156dc0a.json",
+					"name" : "mujoco_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros2_uninstall-9fe14889bc93f8dfe4f2.json",
+					"name" : "mujoco_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ed498b97244b2ca583a5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2",
+		"source" : "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

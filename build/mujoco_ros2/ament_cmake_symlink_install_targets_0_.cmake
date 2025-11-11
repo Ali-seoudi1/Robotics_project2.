@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/mujoco_node" "TARGETS" "mujoco_node" "DESTINATION" "lib/mujoco_ros2")

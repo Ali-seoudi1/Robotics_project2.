@@ -1,1 +1,0 @@
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/ur_description/ament_cmake_environment_hooks/local_setup.bash
