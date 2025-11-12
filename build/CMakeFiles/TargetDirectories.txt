@@ -1,0 +1,12 @@
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/uninstall.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/mujoco_ros2_uninstall.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/mujoco_node.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/ament_cmake_python_copy_mujoco_ros2.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/ament_cmake_python_build_mujoco_ros2_egg.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/test.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/edit_cache.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/rebuild_cache.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/list_install_components.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/install.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/install/local.dir
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/install/strip.dir

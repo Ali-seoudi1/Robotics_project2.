@@ -1,0 +1,312 @@
+<mujoco model="ur5e_sorting_station">
+  <compiler angle="radian" autolimits="true"/>
+  
+  <option integrator="implicitfast" timestep="0.002"/>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
+    <rgba haze="0.15 0.25 0.35 1"/>
+    <global azimuth="120" elevation="-20"/>
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="512"/>
+    <texture name="groundplane" type="2d" builtin="checker" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3" width="300" height="300" mark="edge" markrgb="0.8 0.8 0.8"/>
+    <material name="groundplane" texture="groundplane" texrepeat="5 5" texuniform="true" reflectance="0.2"/>
+    
+    <!-- Conveyor textures -->
+    <texture name="conveyor_belt" type="2d" builtin="checker" rgb1="0.15 0.15 0.15" rgb2="0.25 0.25 0.25" width="100" height="100"/>
+    <material name="conveyor_mat" texture="conveyor_belt" texrepeat="20 2" reflectance="0.1"/>
+    
+    <!-- Box materials -->
+    <material name="white_box" rgba="0.95 0.95 0.95 1" specular="0.5" shininess="0.3"/>
+    <material name="black_box" rgba="0.1 0.1 0.1 1" specular="0.3" shininess="0.2"/>
+    
+    <!-- Bin materials -->
+    <material name="white_bin" rgba="0.9 0.9 0.95 0.8" specular="0.3" shininess="0.2"/>
+    <material name="black_bin" rgba="0.15 0.15 0.2 0.8" specular="0.3" shininess="0.2"/>
+    
+    <!-- Environment materials -->
+    <material name="table" rgba="0.5 0.4 0.3 1"/>
+    <material name="metal" rgba="0.6 0.6 0.65 1" specular="0.8" shininess="0.5"/>
+    <material name="plastic" rgba="0.3 0.3 0.35 1" specular="0.2" shininess="0.1"/>
+    
+    <!-- UR5e mesh assets -->
+    <mesh file="assets/base_0.obj"/>
+    <mesh file="assets/base_1.obj"/>
+    <mesh file="assets/shoulder_0.obj"/>
+    <mesh file="assets/shoulder_1.obj"/>
+    <mesh file="assets/shoulder_2.obj"/>
+    <mesh file="assets/upperarm_0.obj"/>
+    <mesh file="assets/upperarm_1.obj"/>
+    <mesh file="assets/upperarm_2.obj"/>
+    <mesh file="assets/upperarm_3.obj"/>
+    <mesh file="assets/forearm_0.obj"/>
+    <mesh file="assets/forearm_1.obj"/>
+    <mesh file="assets/forearm_2.obj"/>
+    <mesh file="assets/forearm_3.obj"/>
+    <mesh file="assets/wrist1_0.obj"/>
+    <mesh file="assets/wrist1_1.obj"/>
+    <mesh file="assets/wrist1_2.obj"/>
+    <mesh file="assets/wrist2_0.obj"/>
+    <mesh file="assets/wrist2_1.obj"/>
+    <mesh file="assets/wrist2_2.obj"/>
+    <mesh file="assets/wrist3.obj"/>
+    
+    <!-- UR5e materials -->
+    <material name="black" rgba="0.033 0.033 0.033 1"/>
+    <material name="jointgray" rgba="0.278 0.278 0.278 1"/>
+    <material name="linkgray" rgba="0.82 0.82 0.82 1"/>
+    <material name="urblue" rgba="0.49 0.678 0.8 1"/>
+  </asset>
+
+  <default>
+    <geom contype="1" conaffinity="1" friction="1 0.5 0.005"/>
+    <joint damping="1" armature="0.01"/>
+    <default class="box_collision">
+      <geom type="box" size="0.025 0.025 0.025" mass="0.05" material="white_box"/>
+    </default>
+    <default class="ur5e">
+      <material specular="0.5" shininess="0.25"/>
+      <joint axis="0 1 0" range="-6.28319 6.28319" armature="0.1"/>
+      <general gaintype="fixed" biastype="affine" ctrlrange="-6.2831 6.2831" gainprm="2000" biasprm="0 -2000 -400"
+        forcerange="-150 150"/>
+      <default class="size3">
+        <default class="size3_limited">
+          <joint range="-3.1415 3.1415"/>
+          <general ctrlrange="-3.1415 3.1415"/>
+        </default>
+      </default>
+      <default class="size1">
+        <general gainprm="500" biasprm="0 -500 -100" forcerange="-28 28"/>
+      </default>
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="collision">
+        <geom type="capsule" group="3"/>
+        <default class="eef_collision">
+          <geom type="cylinder"/>
+        </default>
+      </default>
+      <site size="0.001" rgba="0.5 0.5 0.5 0.3" group="4"/>
+    </default>
+  </default>
+
+  <worldbody>
+    <!-- Lighting -->
+    <light pos="0 0 3" dir="0 0 -1" directional="false" cutoff="60" exponent="1" diffuse="0.5 0.5 0.5" specular="0.3 0.3 0.3"/>
+    <light pos="2 2 3" dir="-0.5 -0.5 -1" directional="false" cutoff="60" exponent="1" diffuse="0.4 0.4 0.4" specular="0.2 0.2 0.2"/>
+    <light pos="-2 -2 3" dir="0.5 0.5 -1" directional="false" cutoff="60" exponent="1" diffuse="0.4 0.4 0.4" specular="0.2 0.2 0.2"/>
+    
+    <!-- Ground -->
+    <geom name="floor" type="plane" size="5 5 0.1" material="groundplane" condim="3"/>
+    
+    <!-- Main work table -->
+    <body name="work_table" pos="0 0 0.4">
+      <geom name="table_top" type="box" size="1.2 0.8 0.02" pos="0 0 -0.02" material="table" mass="50"/>
+      <geom name="table_leg1" type="cylinder" size="0.04 0.4" pos="1.0 0.7 -0.42" material="metal" mass="5"/>
+      <geom name="table_leg2" type="cylinder" size="0.04 0.4" pos="1.0 -0.7 -0.42" material="metal" mass="5"/>
+      <geom name="table_leg3" type="cylinder" size="0.04 0.4" pos="-1.0 0.7 -0.42" material="metal" mass="5"/>
+      <geom name="table_leg4" type="cylinder" size="0.04 0.4" pos="-1.0 -0.7 -0.42" material="metal" mass="5"/>
+    </body>
+
+    <!-- Conveyor Belt System -->
+    <body name="conveyor_base" pos="0 0 0.42">
+      <!-- Conveyor frame -->
+      <geom name="conveyor_frame_left" type="box" size="0.6 0.03 0.05" pos="0 -0.23 0" material="metal" mass="10"/>
+      <geom name="conveyor_frame_right" type="box" size="0.6 0.03 0.05" pos="0 0.23 0" material="metal" mass="10"/>
+      
+      <!-- Conveyor belt surface (moving part would need actuator in real system) -->
+      <geom name="conveyor_belt" type="box" size="0.6 0.2 0.01" pos="0 0 0.06" material="conveyor_mat" mass="5" friction="0.8 0.4 0.002"/>
+      
+      <!-- Conveyor support -->
+      <geom name="conveyor_support1" type="cylinder" size="0.03 0.05" pos="-0.5 -0.23 -0.05" material="metal"/>
+      <geom name="conveyor_support2" type="cylinder" size="0.03 0.05" pos="-0.5 0.23 -0.05" material="metal"/>
+      <geom name="conveyor_support3" type="cylinder" size="0.03 0.05" pos="0.5 -0.23 -0.05" material="metal"/>
+      <geom name="conveyor_support4" type="cylinder" size="0.03 0.05" pos="0.5 0.23 -0.05" material="metal"/>
+    </body>
+
+    <!-- White Boxes on conveyor (3 white boxes) -->
+    <body name="white_box_1" pos="-0.3 0 0.515">
+      <freejoint/>
+      <geom name="wb1_geom" type="box" size="0.03 0.03 0.03" material="white_box" mass="0.08" friction="1.0 0.5 0.005"/>
+      <site name="wb1_center" pos="0 0 0" size="0.005"/>
+    </body>
+
+    <body name="white_box_2" pos="-0.05 0.05 0.515">
+      <freejoint/>
+      <geom name="wb2_geom" type="box" size="0.03 0.03 0.03" material="white_box" mass="0.08" friction="1.0 0.5 0.005"/>
+      <site name="wb2_center" pos="0 0 0" size="0.005"/>
+    </body>
+
+    <body name="white_box_3" pos="0.25 -0.03 0.515">
+      <freejoint/>
+      <geom name="wb3_geom" type="box" size="0.03 0.03 0.03" material="white_box" mass="0.08" friction="1.0 0.5 0.005"/>
+      <site name="wb3_center" pos="0 0 0" size="0.005"/>
+    </body>
+
+    <!-- Black Boxes on conveyor (3 black boxes) -->
+    <body name="black_box_1" pos="-0.45 -0.04 0.515">
+      <freejoint/>
+      <geom name="bb1_geom" type="box" size="0.03 0.03 0.03" material="black_box" mass="0.08" friction="1.0 0.5 0.005"/>
+      <site name="bb1_center" pos="0 0 0" size="0.005"/>
+    </body>
+
+    <body name="black_box_2" pos="0.1 0.02 0.515">
+      <freejoint/>
+      <geom name="bb2_geom" type="box" size="0.03 0.03 0.03" material="black_box" mass="0.08" friction="1.0 0.5 0.005"/>
+      <site name="bb2_center" pos="0 0 0" size="0.005"/>
+    </body>
+
+    <body name="black_box_3" pos="0.4 0.06 0.515">
+      <freejoint/>
+      <geom name="bb3_geom" type="box" size="0.03 0.03 0.03" material="black_box" mass="0.08" friction="1.0 0.5 0.005"/>
+      <site name="bb3_center" pos="0 0 0" size="0.005"/>
+    </body>
+
+    <!-- Left Sorting Bin (for white boxes) -->
+    <body name="white_bin" pos="-0.9 0 0.42">
+      <!-- Bin base -->
+      <geom name="white_bin_base" type="box" size="0.15 0.15 0.01" pos="0 0 0" material="white_bin" mass="2"/>
+      <!-- Bin walls -->
+      <geom name="white_bin_wall_front" type="box" size="0.15 0.01 0.1" pos="0 -0.16 0.1" material="white_bin" mass="0.5"/>
+      <geom name="white_bin_wall_back" type="box" size="0.15 0.01 0.1" pos="0 0.16 0.1" material="white_bin" mass="0.5"/>
+      <geom name="white_bin_wall_left" type="box" size="0.01 0.15 0.1" pos="-0.16 0 0.1" material="white_bin" mass="0.5"/>
+      <geom name="white_bin_wall_right" type="box" size="0.01 0.15 0.1" pos="0.16 0 0.1" material="white_bin" mass="0.5"/>
+      
+      <!-- Label -->
+      <site name="white_bin_label" pos="0 -0.17 0.15" size="0.02" rgba="1 1 1 1"/>
+    </body>
+
+    <!-- Right Sorting Bin (for black boxes) -->
+    <body name="black_bin" pos="0.9 0 0.42">
+      <!-- Bin base -->
+      <geom name="black_bin_base" type="box" size="0.15 0.15 0.01" pos="0 0 0" material="black_bin" mass="2"/>
+      <!-- Bin walls -->
+      <geom name="black_bin_wall_front" type="box" size="0.15 0.01 0.1" pos="0 -0.16 0.1" material="black_bin" mass="0.5"/>
+      <geom name="black_bin_wall_back" type="box" size="0.15 0.01 0.1" pos="0 0.16 0.1" material="black_bin" mass="0.5"/>
+      <geom name="black_bin_wall_left" type="box" size="0.01 0.15 0.1" pos="-0.16 0 0.1" material="black_bin" mass="0.5"/>
+      <geom name="black_bin_wall_right" type="box" size="0.01 0.15 0.1" pos="0.16 0 0.1" material="black_bin" mass="0.5"/>
+      
+      <!-- Label -->
+      <site name="black_bin_label" pos="0 -0.17 0.15" size="0.02" rgba="0.1 0.1 0.1 1"/>
+    </body>
+
+    <!-- UR5e Robot Arm -->
+    <body name="base" pos="-0.6 0 0.42" quat="0 0 0 -1" childclass="ur5e">
+      <inertial mass="4.0" pos="0 0 0" diaginertia="0.00443333156 0.00443333156 0.0072"/>
+      <geom mesh="base_0" material="black" class="visual"/>
+      <geom mesh="base_1" material="jointgray" class="visual"/>
+      <body name="shoulder_link" pos="0 0 0.163">
+        <inertial mass="3.7" pos="0 0 0" diaginertia="0.0102675 0.0102675 0.00666"/>
+        <joint name="shoulder_pan_joint" class="size3" axis="0 0 1"/>
+        <geom mesh="shoulder_0" material="urblue" class="visual"/>
+        <geom mesh="shoulder_1" material="black" class="visual"/>
+        <geom mesh="shoulder_2" material="jointgray" class="visual"/>
+        <geom class="collision" size="0.06 0.06" pos="0 0 -0.04"/>
+        <body name="upper_arm_link" pos="0 0.138 0" quat="1 0 1 0">
+          <inertial mass="8.393" pos="0 0 0.2125" diaginertia="0.133886 0.133886 0.0151074"/>
+          <joint name="shoulder_lift_joint" class="size3"/>
+          <geom mesh="upperarm_0" material="linkgray" class="visual"/>
+          <geom mesh="upperarm_1" material="black" class="visual"/>
+          <geom mesh="upperarm_2" material="jointgray" class="visual"/>
+          <geom mesh="upperarm_3" material="urblue" class="visual"/>
+          <geom class="collision" pos="0 -0.04 0" quat="1 1 0 0" size="0.06 0.06"/>
+          <geom class="collision" size="0.05 0.2" pos="0 0 0.2"/>
+          <body name="forearm_link" pos="0 -0.131 0.425">
+            <inertial mass="2.275" pos="0 0 0.196" diaginertia="0.0311796 0.0311796 0.004095"/>
+            <joint name="elbow_joint" class="size3_limited"/>
+            <geom mesh="forearm_0" material="urblue" class="visual"/>
+            <geom mesh="forearm_1" material="linkgray" class="visual"/>
+            <geom mesh="forearm_2" material="black" class="visual"/>
+            <geom mesh="forearm_3" material="jointgray" class="visual"/>
+            <geom class="collision" pos="0 0.08 0" quat="1 1 0 0" size="0.055 0.06"/>
+            <geom class="collision" size="0.038 0.19" pos="0 0 0.2"/>
+            <body name="wrist_1_link" pos="0 0 0.392" quat="1 0 1 0">
+              <inertial mass="1.219" pos="0 0.127 0" diaginertia="0.0025599 0.0025599 0.0021942"/>
+              <joint name="wrist_1_joint" class="size1"/>
+              <geom mesh="wrist1_0" material="black" class="visual"/>
+              <geom mesh="wrist1_1" material="urblue" class="visual"/>
+              <geom mesh="wrist1_2" material="jointgray" class="visual"/>
+              <geom class="collision" pos="0 0.05 0" quat="1 1 0 0" size="0.04 0.07"/>
+              <body name="wrist_2_link" pos="0 0.127 0">
+                <inertial mass="1.219" pos="0 0 0.1" diaginertia="0.0025599 0.0025599 0.0021942"/>
+                <joint name="wrist_2_joint" axis="0 0 1" class="size1"/>
+                <geom mesh="wrist2_0" material="black" class="visual"/>
+                <geom mesh="wrist2_1" material="urblue" class="visual"/>
+                <geom mesh="wrist2_2" material="jointgray" class="visual"/>
+                <geom class="collision" size="0.04 0.06" pos="0 0 0.04"/>
+                <geom class="collision" pos="0 0.02 0.1" quat="1 1 0 0" size="0.04 0.04"/>
+                <body name="wrist_3_link" pos="0 0 0.1">
+                  <inertial mass="0.1889" pos="0 0.0771683 0" quat="1 0 0 1"
+                    diaginertia="0.000132134 9.90863e-05 9.90863e-05"/>
+                  <joint name="wrist_3_joint" class="size1"/>
+                  <geom material="linkgray" mesh="wrist3" class="visual"/>
+                  <geom class="eef_collision" pos="0 0.08 0" quat="1 1 0 0" size="0.04 0.02"/>
+                  <site name="attachment_site" pos="0 0.1 0" quat="-1 1 0 0"/>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+
+    <!-- Safety Fence (optional) -->
+    <body name="safety_fence_back" pos="0 0.9 0.6">
+      <geom name="fence_back" type="box" size="2 0.02 0.6" material="metal" rgba="0.8 0.7 0.1 0.3" mass="5"/>
+    </body>
+
+    <!-- Tool rack (for future tools) -->
+    <body name="tool_rack" pos="0.8 0.7 0.42">
+      <geom name="rack_base" type="box" size="0.15 0.15 0.01" material="plastic" mass="1"/>
+      <geom name="rack_post" type="cylinder" size="0.02 0.2" pos="0 0 0.2" material="metal" mass="0.5"/>
+    </body>
+
+    <!-- Emergency stop button -->
+    <body name="estop_button" pos="0.9 -0.7 0.8">
+      <geom name="estop_base" type="cylinder" size="0.05 0.02" material="plastic" rgba="0.2 0.2 0.2 1" mass="0.1"/>
+      <geom name="estop_button_top" type="cylinder" size="0.04 0.03" pos="0 0 0.05" material="plastic" rgba="0.9 0.1 0.1 1" mass="0.05"/>
+    </body>
+
+  </worldbody>
+
+  <actuator>
+    <general class="size3" name="shoulder_pan" joint="shoulder_pan_joint"/>
+    <general class="size3" name="shoulder_lift" joint="shoulder_lift_joint"/>
+    <general class="size3_limited" name="elbow" joint="elbow_joint"/>
+    <general class="size1" name="wrist_1" joint="wrist_1_joint"/>
+    <general class="size1" name="wrist_2" joint="wrist_2_joint"/>
+    <general class="size1" name="wrist_3" joint="wrist_3_joint"/>
+  </actuator>
+
+  <!-- Contact parameters for realistic interactions -->
+  <contact>
+    <exclude body1="white_bin" body2="white_bin"/>
+    <exclude body1="black_bin" body2="black_bin"/>
+  </contact>
+
+  <sensor>
+    <!-- Box position sensors -->
+    <framepos name="wb1_pos" objtype="site" objname="wb1_center"/>
+    <framepos name="wb2_pos" objtype="site" objname="wb2_center"/>
+    <framepos name="wb3_pos" objtype="site" objname="wb3_center"/>
+    <framepos name="bb1_pos" objtype="site" objname="bb1_center"/>
+    <framepos name="bb2_pos" objtype="site" objname="bb2_center"/>
+    <framepos name="bb3_pos" objtype="site" objname="bb3_center"/>
+  </sensor>
+
+  <keyframe>
+    <key name="home" 
+         qpos="-1.5708 -1.5708 1.5708 -1.5708 -1.5708 0
+                -0.3 0 0.515 1 0 0 0
+                -0.05 0.05 0.515 1 0 0 0
+                0.25 -0.03 0.515 1 0 0 0
+                -0.45 -0.04 0.515 1 0 0 0
+                0.1 0.02 0.515 1 0 0 0
+                0.4 0.06 0.515 1 0 0 0"
+         ctrl="-1.5708 -1.5708 1.5708 -1.5708 -1.5708 0"/>
+  </keyframe>
+
+</mujoco>

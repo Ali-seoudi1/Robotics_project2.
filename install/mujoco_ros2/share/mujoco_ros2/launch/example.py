@@ -26,7 +26,7 @@ def generate_launch_description():
                         {"visualisation_frequency" : 20},
                         {"camera_focal_point": [0.0, 0.0, 0.25]},
                         {"camera_distance": 2.5},
-                        {"camera_azimuth": 250.0},
+                        {"camera_azimuth": 135.0},
                         {"camera_elevation": -20.0},
                         {"camera_orthographic": True}
                      ]

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2"
+CMAKE_SOURCE_DIR = /home/amir/Robotics_project2./src/mujoco_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2"
+CMAKE_BINARY_DIR = /home/amir/Robotics_project2./build/mujoco_ros2
 
 # Utility rule file for mujoco_ros2_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/mujoco_ros2_uninstall.dir/compiler_depend.make
 include CMakeFiles/mujoco_ros2_uninstall.dir/progress.make
 
 CMakeFiles/mujoco_ros2_uninstall:
-	/usr/bin/cmake -P /home/ali/Desktop/Ali\ engineering/GUC/Semester\ 10/Robotics/Robotics_project/build/mujoco_ros2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/amir/Robotics_project2./build/mujoco_ros2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 mujoco_ros2_uninstall: CMakeFiles/mujoco_ros2_uninstall
 mujoco_ros2_uninstall: CMakeFiles/mujoco_ros2_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/mujoco_ros2_uninstall.dir/clean:
 .PHONY : CMakeFiles/mujoco_ros2_uninstall.dir/clean
 
 CMakeFiles/mujoco_ros2_uninstall.dir/depend:
-	cd "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2" "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2" "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2" "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2" "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles/mujoco_ros2_uninstall.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/amir/Robotics_project2./build/mujoco_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/Robotics_project2./src/mujoco_ros2 /home/amir/Robotics_project2./src/mujoco_ros2 /home/amir/Robotics_project2./build/mujoco_ros2 /home/amir/Robotics_project2./build/mujoco_ros2 /home/amir/Robotics_project2./build/mujoco_ros2/CMakeFiles/mujoco_ros2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mujoco_ros2_uninstall.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2"
+CMAKE_SOURCE_DIR = /home/amir/Robotics_project2./src/mujoco_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2"
+CMAKE_BINARY_DIR = /home/amir/Robotics_project2./build/mujoco_ros2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles" "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amir/Robotics_project2./build/mujoco_ros2/CMakeFiles /home/amir/Robotics_project2./build/mujoco_ros2//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amir/Robotics_project2./build/mujoco_ros2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -210,32 +210,6 @@ mujoco_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mujoco_node.dir/build.make CMakeFiles/mujoco_node.dir/build
 .PHONY : mujoco_node/fast
 
-#=============================================================================
-# Target rules for targets named ament_cmake_python_copy_mujoco_ros2
-
-# Build rule for target.
-ament_cmake_python_copy_mujoco_ros2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_mujoco_ros2
-.PHONY : ament_cmake_python_copy_mujoco_ros2
-
-# fast build rule for target.
-ament_cmake_python_copy_mujoco_ros2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_mujoco_ros2.dir/build.make CMakeFiles/ament_cmake_python_copy_mujoco_ros2.dir/build
-.PHONY : ament_cmake_python_copy_mujoco_ros2/fast
-
-#=============================================================================
-# Target rules for targets named ament_cmake_python_build_mujoco_ros2_egg
-
-# Build rule for target.
-ament_cmake_python_build_mujoco_ros2_egg: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_mujoco_ros2_egg
-.PHONY : ament_cmake_python_build_mujoco_ros2_egg
-
-# fast build rule for target.
-ament_cmake_python_build_mujoco_ros2_egg/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_mujoco_ros2_egg.dir/build.make CMakeFiles/ament_cmake_python_build_mujoco_ros2_egg.dir/build
-.PHONY : ament_cmake_python_build_mujoco_ros2_egg/fast
-
 src/mujoco_ros.o: src/mujoco_ros.cpp.o
 .PHONY : src/mujoco_ros.o
 
@@ -297,8 +271,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... ament_cmake_python_build_mujoco_ros2_egg"
-	@echo "... ament_cmake_python_copy_mujoco_ros2"
 	@echo "... mujoco_ros2_uninstall"
 	@echo "... uninstall"
 	@echo "... mujoco_node"

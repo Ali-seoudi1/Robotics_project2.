@@ -9,10 +9,6 @@
    <license>GNU General Public License GPLv3</license>
    
    <buildtool_depend>ament_cmake</buildtool_depend>
-
-   <buildtool_depend>ament_python</buildtool_depend>
-   <exec_depend>python3</exec_depend>
-
    
    <!-- Necessary dependencies for ROS2 launch files -->
    <depend>launch</depend>
@@ -25,10 +21,8 @@
    <test_depend>ament_lint_common</test_depend>
    
    <export>
-  <build_type>ament_cmake</build_type>
-</export>
-
-
+     <build_type>ament_cmake</build_type>
+   </export>
    
 </package>
 

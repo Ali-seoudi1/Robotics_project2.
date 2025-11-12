@@ -1,55 +1,44 @@
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/launch/example.py
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/CHANGELOG.md
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/two_link_planar.xml
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/ur5e.xml
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/LICENSE
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/scene.xml
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_0.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist3.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_0.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_1.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_2.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_1.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_0.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_2.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_2.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_0.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_1.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_2.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_3.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_0.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_1.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_1.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_3.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_1.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_0.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_2.obj
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/ur5e.png
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/README.md
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/pythonpath.sh
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/pythonpath.dsv
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/dependency_links.txt
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/top_level.txt
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/SOURCES.txt
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/PKG-INFO
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/__init__.py
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/fk_ur5e.py
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_controller.py
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/kinematics_derivations.py
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_ur5e.py
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.sh
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.dsv
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/path.sh
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/path.dsv
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.bash
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.sh
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.zsh
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.dsv
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/package.dsv
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/ament_index/resource_index/packages/mujoco_ros2
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config.cmake
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config-version.cmake
-/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/package.xml
+/home/amir/Robotics_project2./install/mujoco_ros2/lib/mujoco_ros2/mujoco_node
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/launch/example.py
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/launch/robot.py
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/CHANGELOG.md
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/ur5e.png
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/ur5e.xml
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/README.md
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/scene.xml
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_3.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_1.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_0.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_1.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_0.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_1.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_1.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_0.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_1.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/base_0.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist3.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_2.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_2.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_3.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/base_1.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_2.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_0.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_2.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_0.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_2.obj
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/model/LICENSE
+/home/amir/Robotics_project2./install/mujoco_ros2/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2
+/home/amir/Robotics_project2./install/mujoco_ros2/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.sh
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.dsv
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/environment/path.sh
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/environment/path.dsv
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/local_setup.bash
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/local_setup.sh
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/local_setup.zsh
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/local_setup.dsv
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/package.dsv
+/home/amir/Robotics_project2./install/mujoco_ros2/share/ament_index/resource_index/packages/mujoco_ros2
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config.cmake
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config-version.cmake
+/home/amir/Robotics_project2./install/mujoco_ros2/share/mujoco_ros2/package.xml
