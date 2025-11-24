@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.001169] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.001329] (mujoco_ros2) JobQueued: {'identifier': 'mujoco_ros2', 'dependencies': OrderedDict()}
+[0.001415] (mujoco_ros2) JobStarted: {'identifier': 'mujoco_ros2'}
+[0.016935] (mujoco_ros2) JobProgress: {'identifier': 'mujoco_ros2', 'progress': 'cmake'}
+[0.017768] (mujoco_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2', '-DCMAKE_INSTALL_PREFIX=/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2'], 'cwd': '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ali'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/mujoco-3.2.0/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/mujoco-3.2.0/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/mujoco-3.2.0/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/mujoco-3.2.0/lib'), ('HOME', '/home/ali'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/mujoco_ros2'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ali/.nvm/versions/node/v22.15.1/bin'), ('NVM_INC', '/home/ali/.nvm/versions/node/v22.15.1/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_GB.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1946'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2137'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4832'), ('NVM_DIR', '/home/ali/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('JOURNAL_STREAM', '8:22855'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/ali/mujoco-3.2.0'), ('USERNAME', 'ali'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/Android/Sdk/platform-tools:/home/ali/.local/bin:/opt/ros/humble/bin:/home/ali/Android/Sdk/platform-tools:/home/ali/.nvm/versions/node/v22.15.1/bin:/home/ali/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ali/mujoco-3.2.0/bin:/home/ali/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/ali/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/ali/mujoco-3.2.0/bin'), ('SESSION_MANAGER', 'local/ali-laptop:@/tmp/.ICE-unix/2109,unix/ali-laptop:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '555d2327fff245c493abf20d71ce509b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('MUJOCO_DIR', '/usr/local/mujoco-3.2.0'), ('GNOME_SETUP_DISPLAY', ':1'), ('MUJOCO_PATH', '/home/ali/mujoco-3.2.0'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e4450d1cef0065fc.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/ali/.config/Code/User/workspaceStorage/d9836caa29a53277410ae2b610a22ab7/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.WQPYG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-2a0c90e892.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ANDROID_HOME', '/home/ali/Android/Sdk'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097354] (-) TimerEvent: {}
+[0.198076] (-) TimerEvent: {}
+[0.263720] (mujoco_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.298403] (-) TimerEvent: {}
+[0.399257] (-) TimerEvent: {}
+[0.500639] (-) TimerEvent: {}
+[0.503825] (mujoco_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.530030] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601217] (-) TimerEvent: {}
+[0.702236] (-) TimerEvent: {}
+[0.803744] (-) TimerEvent: {}
+[0.875199] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.903855] (-) TimerEvent: {}
+[0.907959] (mujoco_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.913519] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.915893] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.924830] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.004130] (-) TimerEvent: {}
+[1.105228] (-) TimerEvent: {}
+[1.206452] (-) TimerEvent: {}
+[1.232464] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.260055] (mujoco_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.260766] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.261398] (mujoco_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.277372] (mujoco_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.306740] (-) TimerEvent: {}
+[1.407550] (-) TimerEvent: {}
+[1.509259] (-) TimerEvent: {}
+[1.610297] (-) TimerEvent: {}
+[1.711223] (-) TimerEvent: {}
+[1.713818] (mujoco_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.811460] (-) TimerEvent: {}
+[1.911902] (-) TimerEvent: {}
+[1.920480] (mujoco_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.012201] (-) TimerEvent: {}
+[2.034024] (mujoco_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.049024] (mujoco_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.075888] (mujoco_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.105866] (mujoco_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.112410] (-) TimerEvent: {}
+[2.143220] (mujoco_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.212538] (-) TimerEvent: {}
+[2.215610] (mujoco_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.219430] (mujoco_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.312661] (-) TimerEvent: {}
+[2.377325] (mujoco_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.412858] (-) TimerEvent: {}
+[2.417616] (mujoco_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.483668] (mujoco_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.506938] (mujoco_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.513006] (-) TimerEvent: {}
+[2.613374] (-) TimerEvent: {}
+[2.664231] (mujoco_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.664649] (mujoco_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.713683] (-) TimerEvent: {}
+[2.789996] (mujoco_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.791764] (mujoco_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.813823] (-) TimerEvent: {}
+[2.914290] (-) TimerEvent: {}
+[2.945838] (mujoco_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.006386] (mujoco_ros2) StdoutLine: {'line': b'-- Using MuJoCo from: /usr/local/mujoco-3.2.0\n'}
+[3.014496] (-) TimerEvent: {}
+[3.114929] (-) TimerEvent: {}
+[3.215273] (-) TimerEvent: {}
+[3.233920] (mujoco_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.260620] (mujoco_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.265420] (mujoco_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2\n'}
+[3.276268] (mujoco_ros2) CommandEnded: {'returncode': 0}
+[3.277046] (mujoco_ros2) JobProgress: {'identifier': 'mujoco_ros2', 'progress': 'build'}
+[3.278039] (mujoco_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2', '--', '-j12', '-l12'], 'cwd': '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ali'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/mujoco-3.2.0/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/mujoco-3.2.0/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/mujoco-3.2.0/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/mujoco-3.2.0/lib'), ('HOME', '/home/ali'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/mujoco_ros2'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ali/.nvm/versions/node/v22.15.1/bin'), ('NVM_INC', '/home/ali/.nvm/versions/node/v22.15.1/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_GB.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1946'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2137'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4832'), ('NVM_DIR', '/home/ali/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('JOURNAL_STREAM', '8:22855'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/ali/mujoco-3.2.0'), ('USERNAME', 'ali'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/Android/Sdk/platform-tools:/home/ali/.local/bin:/opt/ros/humble/bin:/home/ali/Android/Sdk/platform-tools:/home/ali/.nvm/versions/node/v22.15.1/bin:/home/ali/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ali/mujoco-3.2.0/bin:/home/ali/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/ali/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/ali/mujoco-3.2.0/bin'), ('SESSION_MANAGER', 'local/ali-laptop:@/tmp/.ICE-unix/2109,unix/ali-laptop:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '555d2327fff245c493abf20d71ce509b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('MUJOCO_DIR', '/usr/local/mujoco-3.2.0'), ('GNOME_SETUP_DISPLAY', ':1'), ('MUJOCO_PATH', '/home/ali/mujoco-3.2.0'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e4450d1cef0065fc.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/ali/.config/Code/User/workspaceStorage/d9836caa29a53277410ae2b610a22ab7/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.WQPYG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-2a0c90e892.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ANDROID_HOME', '/home/ali/Android/Sdk'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.315526] (-) TimerEvent: {}
+[3.368465] (mujoco_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o\x1b[0m\n'}
+[3.368785] (mujoco_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o\x1b[0m\n'}
+[3.385174] (mujoco_ros2) StdoutLine: {'line': b'[ 66%] Built target ament_cmake_python_copy_mujoco_ros2\n'}
+[3.415700] (-) TimerEvent: {}
+[3.516122] (-) TimerEvent: {}
+[3.616459] (-) TimerEvent: {}
+[3.689823] (mujoco_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[3.690445] (mujoco_ros2) StdoutLine: {'line': b'creating mujoco_ros2.egg-info\n'}
+[3.690717] (mujoco_ros2) StdoutLine: {'line': b'writing mujoco_ros2.egg-info/PKG-INFO\n'}
+[3.691021] (mujoco_ros2) StdoutLine: {'line': b'writing dependency_links to mujoco_ros2.egg-info/dependency_links.txt\n'}
+[3.691158] (mujoco_ros2) StdoutLine: {'line': b'writing top-level names to mujoco_ros2.egg-info/top_level.txt\n'}
+[3.691340] (mujoco_ros2) StdoutLine: {'line': b"writing manifest file 'mujoco_ros2.egg-info/SOURCES.txt'\n"}
+[3.695172] (mujoco_ros2) StdoutLine: {'line': b"reading manifest file 'mujoco_ros2.egg-info/SOURCES.txt'\n"}
+[3.695748] (mujoco_ros2) StdoutLine: {'line': b"writing manifest file 'mujoco_ros2.egg-info/SOURCES.txt'\n"}
+[3.716687] (-) TimerEvent: {}
+[3.733113] (mujoco_ros2) StdoutLine: {'line': b'[ 66%] Built target ament_cmake_python_build_mujoco_ros2_egg\n'}
+[3.816914] (-) TimerEvent: {}
+[3.917693] (-) TimerEvent: {}
+[4.018424] (-) TimerEvent: {}
+[4.119092] (-) TimerEvent: {}
+[4.219603] (-) TimerEvent: {}
+[4.320110] (-) TimerEvent: {}
+[4.420516] (-) TimerEvent: {}
+[4.521072] (-) TimerEvent: {}
+[4.621763] (-) TimerEvent: {}
+[4.722234] (-) TimerEvent: {}
+[4.823360] (-) TimerEvent: {}
+[4.924496] (-) TimerEvent: {}
+[5.024994] (-) TimerEvent: {}
+[5.125498] (-) TimerEvent: {}
+[5.226173] (-) TimerEvent: {}
+[5.326673] (-) TimerEvent: {}
+[5.427281] (-) TimerEvent: {}
+[5.527814] (-) TimerEvent: {}
+[5.628325] (-) TimerEvent: {}
+[5.728768] (-) TimerEvent: {}
+[5.829300] (-) TimerEvent: {}
+[5.929758] (-) TimerEvent: {}
+[6.030315] (-) TimerEvent: {}
+[6.130887] (-) TimerEvent: {}
+[6.231453] (-) TimerEvent: {}
+[6.332015] (-) TimerEvent: {}
+[6.432558] (-) TimerEvent: {}
+[6.533107] (-) TimerEvent: {}
+[6.633633] (-) TimerEvent: {}
+[6.734153] (-) TimerEvent: {}
+[6.834694] (-) TimerEvent: {}
+[6.935207] (-) TimerEvent: {}
+[7.035725] (-) TimerEvent: {}
+[7.136217] (-) TimerEvent: {}
+[7.236763] (-) TimerEvent: {}
+[7.337270] (-) TimerEvent: {}
+[7.437728] (-) TimerEvent: {}
+[7.538265] (-) TimerEvent: {}
+[7.638772] (-) TimerEvent: {}
+[7.739275] (-) TimerEvent: {}
+[7.839801] (-) TimerEvent: {}
+[7.940290] (-) TimerEvent: {}
+[8.040812] (-) TimerEvent: {}
+[8.141264] (-) TimerEvent: {}
+[8.241758] (-) TimerEvent: {}
+[8.342213] (-) TimerEvent: {}
+[8.442679] (-) TimerEvent: {}
+[8.543116] (-) TimerEvent: {}
+[8.643580] (-) TimerEvent: {}
+[8.744066] (-) TimerEvent: {}
+[8.844536] (-) TimerEvent: {}
+[8.945041] (-) TimerEvent: {}
+[9.045560] (-) TimerEvent: {}
+[9.145973] (-) TimerEvent: {}
+[9.246457] (-) TimerEvent: {}
+[9.346909] (-) TimerEvent: {}
+[9.447359] (-) TimerEvent: {}
+[9.547821] (-) TimerEvent: {}
+[9.648273] (-) TimerEvent: {}
+[9.748739] (-) TimerEvent: {}
+[9.849146] (-) TimerEvent: {}
+[9.949697] (-) TimerEvent: {}
+[10.050234] (-) TimerEvent: {}
+[10.150834] (-) TimerEvent: {}
+[10.251479] (-) TimerEvent: {}
+[10.351976] (-) TimerEvent: {}
+[10.452470] (-) TimerEvent: {}
+[10.552944] (-) TimerEvent: {}
+[10.653442] (-) TimerEvent: {}
+[10.753918] (-) TimerEvent: {}
+[10.854419] (-) TimerEvent: {}
+[10.954891] (-) TimerEvent: {}
+[11.055366] (-) TimerEvent: {}
+[11.155898] (-) TimerEvent: {}
+[11.256346] (-) TimerEvent: {}
+[11.356805] (-) TimerEvent: {}
+[11.457239] (-) TimerEvent: {}
+[11.557697] (-) TimerEvent: {}
+[11.658139] (-) TimerEvent: {}
+[11.758588] (-) TimerEvent: {}
+[11.859033] (-) TimerEvent: {}
+[11.959482] (-) TimerEvent: {}
+[12.059928] (-) TimerEvent: {}
+[12.160369] (-) TimerEvent: {}
+[12.260829] (-) TimerEvent: {}
+[12.361268] (-) TimerEvent: {}
+[12.461713] (-) TimerEvent: {}
+[12.562149] (-) TimerEvent: {}
+[12.662595] (-) TimerEvent: {}
+[12.763043] (-) TimerEvent: {}
+[12.863485] (-) TimerEvent: {}
+[12.963931] (-) TimerEvent: {}
+[13.064366] (-) TimerEvent: {}
+[13.164815] (-) TimerEvent: {}
+[13.265259] (-) TimerEvent: {}
+[13.365740] (-) TimerEvent: {}
+[13.466175] (-) TimerEvent: {}
+[13.566614] (-) TimerEvent: {}
+[13.666971] (-) TimerEvent: {}
+[13.767462] (-) TimerEvent: {}
+[13.867913] (-) TimerEvent: {}
+[13.968363] (-) TimerEvent: {}
+[14.068849] (-) TimerEvent: {}
+[14.169369] (-) TimerEvent: {}
+[14.269907] (-) TimerEvent: {}
+[14.310354] (mujoco_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mujoco_node\x1b[0m\n'}
+[14.370199] (-) TimerEvent: {}
+[14.470696] (-) TimerEvent: {}
+[14.571219] (-) TimerEvent: {}
+[14.671730] (-) TimerEvent: {}
+[14.772222] (-) TimerEvent: {}
+[14.872680] (-) TimerEvent: {}
+[14.973035] (-) TimerEvent: {}
+[15.029200] (mujoco_ros2) StdoutLine: {'line': b'[100%] Built target mujoco_node\n'}
+[15.046215] (mujoco_ros2) CommandEnded: {'returncode': 0}
+[15.047334] (mujoco_ros2) JobProgress: {'identifier': 'mujoco_ros2', 'progress': 'install'}
+[15.059303] (mujoco_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2'], 'cwd': '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ali'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/mujoco-3.2.0/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/mujoco-3.2.0/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/mujoco-3.2.0/lib:/home/ali/mujoco-3.2.0/bin:/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/mujoco-3.2.0/lib'), ('HOME', '/home/ali'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/src/mujoco_ros2/mujoco_ros2'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ali/.nvm/versions/node/v22.15.1/bin'), ('NVM_INC', '/home/ali/.nvm/versions/node/v22.15.1/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_GB.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1946'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2137'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4832'), ('NVM_DIR', '/home/ali/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('JOURNAL_STREAM', '8:22855'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/ali/mujoco-3.2.0'), ('USERNAME', 'ali'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/Android/Sdk/platform-tools:/home/ali/.local/bin:/opt/ros/humble/bin:/home/ali/Android/Sdk/platform-tools:/home/ali/.nvm/versions/node/v22.15.1/bin:/home/ali/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ali/mujoco-3.2.0/bin:/home/ali/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/ali/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/ali/mujoco-3.2.0/bin'), ('SESSION_MANAGER', 'local/ali-laptop:@/tmp/.ICE-unix/2109,unix/ali-laptop:/tmp/.ICE-unix/2109'), ('INVOCATION_ID', '555d2327fff245c493abf20d71ce509b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('MUJOCO_DIR', '/usr/local/mujoco-3.2.0'), ('GNOME_SETUP_DISPLAY', ':1'), ('MUJOCO_PATH', '/home/ali/mujoco-3.2.0'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e4450d1cef0065fc.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/ali/.config/Code/User/workspaceStorage/d9836caa29a53277410ae2b610a22ab7/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.WQPYG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-2a0c90e892.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ANDROID_HOME', '/home/ali/Android/Sdk'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.070439] (mujoco_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.070720] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node\n'}
+[15.073144] (-) TimerEvent: {}
+[15.075497] (mujoco_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node" to ""\n'}
+[15.075803] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/launch\n'}
+[15.076086] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/launch/example.py\n'}
+[15.076188] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model\n'}
+[15.076257] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/CHANGELOG.md\n'}
+[15.077609] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/two_link_planar.xml\n'}
+[15.078248] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/ur5e.xml\n'}
+[15.078659] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/LICENSE\n'}
+[15.078885] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/scene.xml\n'}
+[15.079159] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets\n'}
+[15.079369] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_0.obj\n'}
+[15.081525] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist3.obj\n'}
+[15.083597] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_0.obj\n'}
+[15.085287] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_1.obj\n'}
+[15.089528] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_2.obj\n'}
+[15.100091] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_1.obj\n'}
+[15.110808] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_0.obj\n'}
+[15.113882] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_2.obj\n'}
+[15.122464] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_2.obj\n'}
+[15.129561] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_0.obj\n'}
+[15.140357] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_1.obj\n'}
+[15.141642] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_2.obj\n'}
+[15.146281] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_3.obj\n'}
+[15.151304] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/forearm_0.obj\n'}
+[15.158595] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_1.obj\n'}
+[15.166677] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_1.obj\n'}
+[15.170280] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_3.obj\n'}
+[15.173227] (-) TimerEvent: {}
+[15.195516] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_1.obj\n'}
+[15.201312] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist2_0.obj\n'}
+[15.206121] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/upperarm_2.obj\n'}
+[15.221919] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/ur5e.png\n'}
+[15.230268] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/README.md\n'}
+[15.231181] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/pythonpath.sh\n'}
+[15.231835] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/pythonpath.dsv\n'}
+[15.232177] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info\n'}
+[15.232891] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[15.233204] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[15.233434] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[15.233649] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[15.233839] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2\n'}
+[15.234026] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/trajectory_planner.py\n'}
+[15.234496] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/__init__.py\n'}
+[15.234756] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/fk_ur5e.py\n'}
+[15.234950] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_controller.py\n'}
+[15.235109] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/kinematics_derivations.py\n'}
+[15.235262] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_ur5e.py\n'}
+[15.273467] (-) TimerEvent: {}
+[15.288185] (mujoco_ros2) StdoutLine: {'line': b"Listing '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2'...\n"}
+[15.288644] (mujoco_ros2) StdoutLine: {'line': b"Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/__init__.py'...\n"}
+[15.288770] (mujoco_ros2) StdoutLine: {'line': b"Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/fk_ur5e.py'...\n"}
+[15.288879] (mujoco_ros2) StdoutLine: {'line': b"Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_controller.py'...\n"}
+[15.288984] (mujoco_ros2) StdoutLine: {'line': b"Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_ur5e.py'...\n"}
+[15.289085] (mujoco_ros2) StdoutLine: {'line': b"Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/kinematics_derivations.py'...\n"}
+[15.289186] (mujoco_ros2) StdoutLine: {'line': b"Compiling '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/trajectory_planner.py'...\n"}
+[15.299677] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2\n'}
+[15.300194] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2\n'}
+[15.300954] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.sh\n'}
+[15.301218] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.dsv\n'}
+[15.301368] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/path.sh\n'}
+[15.301919] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/environment/path.dsv\n'}
+[15.302033] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.bash\n'}
+[15.302126] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.sh\n'}
+[15.302213] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.zsh\n'}
+[15.302298] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.dsv\n'}
+[15.302389] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/package.dsv\n'}
+[15.302492] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/ament_index/resource_index/packages/mujoco_ros2\n'}
+[15.302576] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config.cmake\n'}
+[15.302659] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config-version.cmake\n'}
+[15.302748] (mujoco_ros2) StdoutLine: {'line': b'-- Installing: /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/package.xml\n'}
+[15.304363] (mujoco_ros2) CommandEnded: {'returncode': 0}
+[15.327591] (mujoco_ros2) JobEnded: {'identifier': 'mujoco_ros2', 'rc': 0}
+[15.328518] (-) EventReactorShutdown: {}
