@@ -3,7 +3,9 @@ mujoco_ros2/__init__.py
 mujoco_ros2/fk_ur5e.py
 mujoco_ros2/ik_controller.py
 mujoco_ros2/ik_ur5e.py
+mujoco_ros2/industrial_application.py
 mujoco_ros2/kinematics_derivations.py
+mujoco_ros2/pid_controller.py
 mujoco_ros2/trajectory_planner.py
 mujoco_ros2.egg-info/PKG-INFO
 mujoco_ros2.egg-info/SOURCES.txt
