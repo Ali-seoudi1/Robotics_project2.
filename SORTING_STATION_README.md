@@ -2,31 +2,31 @@
 
 ## Overview
 This is a complete sorting station simulation environment built with MuJoCo that includes:
-- **Conveyor belt** with moving surface
-- **6 boxes**: 3 white boxes and 3 black boxes
-- **2 sorting bins**: White bin (left) and black bin (right)
+- **Staging area** with four boxes directly in front of the UR5e
+- **4 boxes**: 2 white boxes and 2 black boxes
+- **2 sorting bins**: White bin and black bin mounted side-by-side near the conveyor
 - **UR5e robotic arm** for automated sorting
-- **Work environment**: Table, safety fence, tool rack, emergency stop button
+- **Work environment**: Table, safety fence, tool rack, safety guard rails
+- **Automated pick & place routine** that satisfies the Milestone 5 requirement by sorting the white/black boxes into their dedicated bins using IK + trajectory planning.
 
 ## Components
 
 ### Scene Elements
-- **Conveyor Belt System**: Industrial-style conveyor (1.2m x 0.4m) at working height
-- **White Boxes** (3x): Located at positions along the conveyor
-- **Black Boxes** (3x): Interspersed with white boxes on conveyor
-- **White Sorting Bin**: Left side (-0.9m, 0, 0.42m) with transparent walls
-- **Black Sorting Bin**: Right side (0.9m, 0, 0.42m) with transparent walls
+- **Staging Area**: Four boxes spawn on the tabletop directly in front of the arm
+- **White Boxes** (2x): Positioned on the positive Y side
+- **Black Boxes** (2x): Positioned on the negative Y side
+- **White & Black Sorting Bins**: Positioned together at x≈0.25 m, y=±0.38 m so the arm can drop off parts quickly
 - **UR5e Robot**: Mounted at (-0.6m, 0, 0.42m) for optimal reach
-- **Safety Equipment**: Back fence and emergency stop button
+- **Safety Equipment**: Back fence and table guard rails
 
 ### Technical Specifications
-- **Total Bodies**: 21
-- **Geoms (shapes)**: 63
-- **Degrees of Freedom**: 42 (6 for robot + 36 for free-moving boxes)
-- **Sensors**: 6 (position sensors for all boxes)
+- **Degrees of Freedom**: 30 (6 robot joints + 24 DOFs for the four free boxes)
+- **Sensors**: None (boxes are scripted via predefined coordinates)
 - **Actuators**: 6 (robot joints)
 
 ## How to Run
+
+The automated routine is implemented in `src/mujoco_ros2/mujoco_ros2/sorting_station_gui.py` and is exposed through the quick launcher in the repository root.
 
 ### Option 1: Direct Python Launch
 ```bash
@@ -68,25 +68,35 @@ ros2 launch mujoco_ros2 sorting_station.launch.py
 - **F1**: Show/hide help overlay
 - **ESC**: Exit application
 
+## Automated Sorting Sequence
+- **State machine** waits 3 seconds in the upright posture, then walks through four pick-and-place tasks alternating between white and black boxes so both bins are utilized.
+- **IK solver** (`inverse_kinematics`) finds the joint configuration for every hover/pick/place pose with a downward tool orientation.
+- **Trajectory planner** (`generate_joint_trajectory`) produces smooth cubic joint trajectories for every move, satisfying the milestone trajectory requirement.
+- **Joint-level PD control** commands the MuJoCo actuators in real time to track each trajectory sample at 150 Hz while respecting the transparent guard that keeps the arm above the table.
+- **Scripted pickup coordinates**: the arm follows predefined poses for each box (no runtime sensing needed) before placing items into the correct bins.
+- **Virtual grasp** attaches a box to the gripper once it reaches the pick height, then releases it when the arm descends inside the correct bin.
+
 ## Scene Configuration
 
 ### Box Positions (Initial)
 **White Boxes:**
-1. Position: (-0.3, 0, 0.515m)
-2. Position: (-0.05, 0.05, 0.515m)
-3. Position: (0.25, -0.03, 0.515m)
+1. Position: (-0.20, 0.18, 0.430m)
+2. Position: (0.00, 0.18, 0.430m)
 
 **Black Boxes:**
-1. Position: (-0.45, -0.04, 0.515m)
-2. Position: (0.1, 0.02, 0.515m)
-3. Position: (0.4, 0.06, 0.515m)
+1. Position: (-0.20, -0.18, 0.430m)
+2. Position: (0.00, -0.18, 0.430m)
+
+### Sorting Bins (Initial)
+- White Bin: (0.25, 0.38, 0.42m)
+- Black Bin: (0.25, -0.38, 0.42m)
 
 ### Robot Home Position
-- Shoulder pan: -90°
+- Shoulder pan: 0°
 - Shoulder lift: -90°
-- Elbow: 90°
+- Elbow: 0°
 - Wrist 1: -90°
-- Wrist 2: -90°
+- Wrist 2: 0°
 - Wrist 3: 0°
 
 ## Development
@@ -103,7 +113,7 @@ Materials are defined in the `<asset>` section. You can adjust colors, textures,
 - Bin walls: Semi-transparent for visibility
 
 ## Future Enhancements
-- [ ] Animated conveyor belt motion
+- [ ] Animated conveyor belt motion synced with pick events
 - [ ] Additional tools on rack (gripper, suction cup)
 - [ ] Multiple robot arms for faster sorting
 - [ ] Vision system simulation with cameras

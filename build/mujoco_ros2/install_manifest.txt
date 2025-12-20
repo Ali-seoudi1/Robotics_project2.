@@ -1,9 +1,11 @@
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/launch/sorting_station.launch.py
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/launch/example.py
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/CHANGELOG.md
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/two_link_planar.xml
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/ur5e.xml
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/LICENSE
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/sorting_scene.xml
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/scene.xml
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist1_0.obj
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/wrist3.obj
@@ -37,6 +39,7 @@
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/__init__.py
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/fk_ur5e.py
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/pid_controller.py
+/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/sorting_station_gui.py
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_controller.py
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/kinematics_derivations.py
 /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/install/mujoco_ros2/local/lib/python3.10/dist-packages/mujoco_ros2/ik_ur5e.py

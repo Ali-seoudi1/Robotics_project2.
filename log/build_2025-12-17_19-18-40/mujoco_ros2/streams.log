@@ -1,0 +1,10 @@
+[0.025s] Invoking command in '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2 -- -j12 -l12
+[0.148s] [ 33%] Building CXX object CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o
+[0.149s] [ 33%] Built target ament_cmake_python_copy_mujoco_ros2
+[0.594s] running egg_info
+[0.597s] writing mujoco_ros2.egg-info/PKG-INFO
+[0.598s] writing dependency_links to mujoco_ros2.egg-info/dependency_links.txt
+[0.598s] writing top-level names to mujoco_ros2.egg-info/top_level.txt
+[0.606s] reading manifest file 'mujoco_ros2.egg-info/SOURCES.txt'
+[0.606s] writing manifest file 'mujoco_ros2.egg-info/SOURCES.txt'
+[0.711s] [ 33%] Built target ament_cmake_python_build_mujoco_ros2_egg

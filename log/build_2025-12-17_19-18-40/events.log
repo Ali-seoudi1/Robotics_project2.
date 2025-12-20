@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000334] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000640] (mujoco_ros2) JobQueued: {'identifier': 'mujoco_ros2', 'dependencies': OrderedDict()}
+[0.001167] (mujoco_ros2) JobStarted: {'identifier': 'mujoco_ros2'}
+[0.018624] (mujoco_ros2) JobProgress: {'identifier': 'mujoco_ros2', 'progress': 'cmake'}
+[0.022802] (mujoco_ros2) JobProgress: {'identifier': 'mujoco_ros2', 'progress': 'build'}
+[0.022907] (mujoco_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2', '--', '-j12', '-l12'], 'cwd': '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ali'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_US'), ('USER', 'ali'), ('LC_TIME', 'en_GB.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '0'), ('HOME', '/home/ali'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ali/.nvm/versions/node/v22.15.1/bin'), ('NVM_INC', '/home/ali/.nvm/versions/node/v22.15.1/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1001/vscode-c21faf68-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '2539'), ('SYSTEMD_EXEC_PID', '2710'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9781'), ('NVM_DIR', '/home/ali/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('JOURNAL_STREAM', '8:17697'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('MUJOCO_HOME', '/home/ali/mujoco-3.2.0'), ('USERNAME', 'ali'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.local/bin:/tmp/.tmpMNZYWR:/home/ali/.local/bin:/opt/ros/humble/bin:/home/ali/Android/Sdk/platform-tools:/home/ali/.nvm/versions/node/v22.15.1/bin:/home/ali/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ali/mujoco-3.2.0/bin:/home/ali/.vscode/extensions/openai.chatgpt-0.4.51-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/ali-laptop:@/tmp/.ICE-unix/2682,unix/ali-laptop:/tmp/.ICE-unix/2682'), ('INVOCATION_ID', 'b9aaf28a35da45108c842288879ea9e2'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('MUJOCO_DIR', '/usr/local/mujoco-3.2.0'), ('GNOME_SETUP_DISPLAY', ':1'), ('MUJOCO_PATH', '/home/ali/mujoco-3.2.0'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.5VSPH3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ali/Desktop/Ali engineering/GUC/Semester 10/Robotics/Robotics_project/build/mujoco_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ali/.config/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61'), ('ANDROID_HOME', '/home/ali/Android/Sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '9781'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099982] (-) TimerEvent: {}
+[0.149090] (mujoco_ros2) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o\n'}
+[0.150014] (mujoco_ros2) StdoutLine: {'line': b'[ 33%] Built target ament_cmake_python_copy_mujoco_ros2\n'}
+[0.200302] (-) TimerEvent: {}
+[0.300842] (-) TimerEvent: {}
+[0.401505] (-) TimerEvent: {}
+[0.502681] (-) TimerEvent: {}
+[0.595174] (mujoco_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[0.598080] (mujoco_ros2) StdoutLine: {'line': b'writing mujoco_ros2.egg-info/PKG-INFO\n'}
+[0.598670] (mujoco_ros2) StdoutLine: {'line': b'writing dependency_links to mujoco_ros2.egg-info/dependency_links.txt\n'}
+[0.598998] (mujoco_ros2) StdoutLine: {'line': b'writing top-level names to mujoco_ros2.egg-info/top_level.txt\n'}
+[0.602860] (-) TimerEvent: {}
+[0.606335] (mujoco_ros2) StdoutLine: {'line': b"reading manifest file 'mujoco_ros2.egg-info/SOURCES.txt'\n"}
+[0.607224] (mujoco_ros2) StdoutLine: {'line': b"writing manifest file 'mujoco_ros2.egg-info/SOURCES.txt'\n"}
+[0.703145] (-) TimerEvent: {}
+[0.711696] (mujoco_ros2) StdoutLine: {'line': b'[ 33%] Built target ament_cmake_python_build_mujoco_ros2_egg\n'}
+[0.803580] (-) TimerEvent: {}
+[0.904250] (-) TimerEvent: {}
+[1.005514] (-) TimerEvent: {}
+[1.106191] (-) TimerEvent: {}
+[1.206516] (-) TimerEvent: {}
+[1.306849] (-) TimerEvent: {}
+[1.407156] (-) TimerEvent: {}
+[1.507425] (-) TimerEvent: {}
+[1.607683] (-) TimerEvent: {}
+[1.707996] (-) TimerEvent: {}
+[1.808298] (-) TimerEvent: {}
+[1.908576] (-) TimerEvent: {}
+[2.009065] (-) TimerEvent: {}
+[2.109779] (-) TimerEvent: {}
+[2.210671] (-) TimerEvent: {}
+[2.312812] (-) TimerEvent: {}
+[2.413582] (-) TimerEvent: {}
+[2.513986] (-) TimerEvent: {}
+[2.614334] (-) TimerEvent: {}
+[2.714911] (-) TimerEvent: {}
+[2.815236] (-) TimerEvent: {}
+[2.915575] (-) TimerEvent: {}
+[3.015895] (-) TimerEvent: {}
+[3.116556] (-) TimerEvent: {}
+[3.217365] (-) TimerEvent: {}
+[3.317661] (-) TimerEvent: {}
+[3.418212] (-) TimerEvent: {}
+[3.518733] (-) TimerEvent: {}
+[3.619715] (-) TimerEvent: {}
+[3.720848] (-) TimerEvent: {}
+[3.821926] (-) TimerEvent: {}
+[3.922580] (-) TimerEvent: {}
+[4.023410] (-) TimerEvent: {}
+[4.123691] (-) TimerEvent: {}
+[4.224068] (-) TimerEvent: {}
+[4.324723] (-) TimerEvent: {}
+[4.425599] (-) TimerEvent: {}
+[4.526306] (-) TimerEvent: {}
+[4.626768] (-) TimerEvent: {}
+[4.727172] (-) TimerEvent: {}
+[4.827662] (-) TimerEvent: {}
+[4.928646] (-) TimerEvent: {}
+[5.029549] (-) TimerEvent: {}
+[5.130194] (-) TimerEvent: {}
+[5.230520] (-) TimerEvent: {}
+[5.330811] (-) TimerEvent: {}
+[5.431083] (-) TimerEvent: {}
+[5.531433] (-) TimerEvent: {}
+[5.631711] (-) TimerEvent: {}
+[5.731998] (-) TimerEvent: {}
+[5.832300] (-) TimerEvent: {}
+[5.932600] (-) TimerEvent: {}
+[6.032880] (-) TimerEvent: {}
+[6.138846] (-) TimerEvent: {}
+[6.239774] (-) TimerEvent: {}
+[6.340951] (-) TimerEvent: {}
+[6.442188] (-) TimerEvent: {}
+[6.543010] (-) TimerEvent: {}
+[6.643366] (-) TimerEvent: {}
+[6.743694] (-) TimerEvent: {}
+[6.844358] (-) TimerEvent: {}
+[6.944714] (-) TimerEvent: {}
+[7.045298] (-) TimerEvent: {}
+[7.145818] (-) TimerEvent: {}
+[7.246152] (-) TimerEvent: {}
+[7.346999] (-) TimerEvent: {}
+[7.447681] (-) TimerEvent: {}
+[7.548590] (-) TimerEvent: {}
+[7.649352] (-) TimerEvent: {}
+[7.749687] (-) TimerEvent: {}
+[7.849983] (-) TimerEvent: {}
+[7.950404] (-) TimerEvent: {}
+[8.051175] (-) TimerEvent: {}
+[8.151521] (-) TimerEvent: {}
+[8.251971] (-) TimerEvent: {}
+[8.352448] (-) TimerEvent: {}
+[8.452811] (-) TimerEvent: {}
+[8.553716] (-) TimerEvent: {}
+[8.654852] (-) TimerEvent: {}
+[8.755346] (-) TimerEvent: {}
+[8.855661] (-) TimerEvent: {}
+[8.956460] (-) TimerEvent: {}
+[9.057232] (-) TimerEvent: {}
+[9.158064] (-) TimerEvent: {}
+[9.258900] (-) TimerEvent: {}
